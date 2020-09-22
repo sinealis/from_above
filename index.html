@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="sine_alis">
+		<meta name="description" content="A portfolio page about aerial photos, taken with DJI Mavic Air from Central Europe. ">
+		<title>Photos from above</title>
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/selectordie.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<header class="header" id="home">
+			<div class="container">
+				<a href="index.html" class="header-logo">
+					<img src="img/logo_110.png" alt="logo">
+				</a>
+				<nav class="menu">
+					<a href="#home" class="menu-item is-active">Home</a>
+					<a href="#about" class="menu-item">About</a>
+					<a href="#drone" class="menu-item">Drone</a>
+					<a href="#blog" class="menu-item">Blog</a>
+					<a href="#contact" class="menu-item">Contact</a>
+				</nav>
+				<form class="menu-dropdown">
+					<select onchange="location = this.options[this.selectedIndex].value;">
+						<option value="#home">Home</option>
+						<option value="#about">About</option>
+						<option value="#drone">Drone</option>
+						<option value="#blog">Blog</option>
+						<option value="#contact">Contact</option>
+					</select>
+				</form>
+				<div class="cf"></div>
+				<div class="header-baseline">
+					<div class="header-baseline-l header-baseline-l1">Photos from above</div>
+					<div class="header-baseline-l header-baseline-l3">taken with DJI Mavic Air</div>
+				</div>
+				<p><a href="#about" class="btn">Learn more</a></p>
+			</div>
+		</header>
+		<section class="section"  id="about">
+			<div class="container">
+				<div class="section-title cf">
+					<h1>About</h1>
+					<p>Hi! I am Judit. I create websites, graphics and aerial photos with maximum attention to detail. In my photography I focus on landscapes that have been transformed by human intervention.</p>
+				</div>
+				<div class="about cf">
+					<div class="about-text">
+						<h2>Skills</h2>
+						<div class="skill">
+							<p class="category">FRONT-END DEVELOPMENT</p>
+							<p class="text">HTML5, CSS3 (SASS), Bootstrap, JavaScript (ES6+, jQuery), Vue.js</p>
+							<p class="category">UI/UX DESIGN</p>
+							<p class="text">Adobe Photoshop, Adobe XD</p>
+							<p class="category">TOOLS</p>
+							<p class="text">Git, Docker</p>
+						</div>
+					</div>
+					<div class="about-picture">
+						<img src="img/about_skills.png" alt="thumbnail">
+					</div>
+				</div>
+				<hr>
+				<div class="section-title cf" id="drone">
+					<h1>Drone</h1>
+					<p>The DJI Mavic Air features a fully stabilized 3-axis gimbal camera capable of shooting 4K video and 12&nbsp;megapixel photos. The maximum flight time of the drone is 21 minutes.</p>
+				</div>
+				<div class="about about-2 cf">
+					<div class="about-picture">
+						<img src="img/about_dron.png" alt="thumbnail">
+					</div>
+					<div class="about-text">
+						<h2>Technical Parameters</h2>
+						<div class="params">
+							<p class="category">AIRCRAFT</p>
+							<p class="text">Dimensions: 168×184×64 mm (L×W×H), Weight: 430&nbsp;g, Internal Storage: 8&nbsp;GB</p>
+							<br/>
+							<p class="category">CAMERA</p>
+							<p class="text">Sensor: 1/2.3” CMOS 12&nbsp;MP, Lens: 24&nbsp;mm, f/2.8, Image Size: 4056×3040&nbsp;px, Video Resolution: 4K Ultra HD: 3840×2160, Photo Format: JPEG/DNG&nbsp;(RAW)</p>
+							<br/>
+							<p class="category">BATERRY</p>
+							<p class="text">Capacity: 2375&nbsp;mAh, Max Charging Power: 60&nbsp;W, Battery Type: LiPo&nbsp;3S</p>
+						</div>
+						<div class="cf"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg">
+			<div class="container">
+				<blockquote class="quote-text">"For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return."</blockquote>
+				<cite class="quote-author">Leonardo da Vinci</cite>
+			</div>
+		</section>
+		<section class="section" id="blog">
+			<div class="container">
+				<div class="section-title cf">
+					<h1>Blog</h1>
+					<p>Here you can find blog posts about the latest photo series, which I update regularly. Most of the photos were taken in Slovakia, Austria, the Czech Republic and Hungary.</p>
+				</div>
+				<div class="posts cf">
+					<div class="post">
+						<a href="img/castle.jpg" class="post-thumb">
+							<img src="img/post_4.jpg" alt="">
+						</a>
+						<div class="post-content">
+							<h2 class="post-title"><a href="bratislava.html">The Bratislava Series</a></h2>
+							<span class="post-meta">4 May 2020</span>
+							<p class="description">This series is mostly from the epidemic times of the Covid-19, taken in the old town of Bratislava, were I am based recently. More photos from the city are coming soon.</p>
+							<p><a href="bratislava.html" class="btn btn-primary">Show more</a></p>
+						</div>
+					</div>
+					<div class="post">
+						<a href="img/slovakiaring.jpg" class="post-thumb">
+							<img src="img/post_1.jpg" alt="">
+						</a>
+						<div class="post-content">
+							<h2 class="post-title"><a href="slovakiaring.html">The Slovakiaring Series</a></h2>
+							<span class="post-meta">20 Feb 2020</span>
+							<p class="description">This professional racing complex is the first-and-only of its kind in Slovakia. It is a completely new track, so it is not very well known yet, which is why I took a photo series of it.</p>
+							<p><a href="slovakiaring.html" class="btn btn-primary">Show more</a></p>
+						</div>
+					</div>
+					<div class="post">
+						<a href="img/nss.jpg" class="post-thumb">
+							<img src="img/post_2.jpg" alt="">
+						</a>
+						<div class="post-content">
+							<h2 class="post-title"><a href="lake.html">The Lake Series</a></h2>
+							<span class="post-meta">5 Jan 2020</span>
+							<p class="description">Here you can find for the moment photos from the Lake Neusiedl (Austria) and from the Lake Kuchajda (Bratislava, Slovakia), taken during the winter of 2019/2020.</p>
+							<p><a href="lake.html" class="btn btn-primary">Show more</a></p>
+						</div>
+					</div>
+					<div class="post">
+						<a href="img/danube.jpg" class="post-thumb">
+							<img src="img/post_3.jpg" alt="">
+						</a>
+						<div class="post-content">
+							<h2 class="post-title"><a href="danube.html">The Danube Series</a></h2>
+							<span class="post-meta">28 Dec 2019</span>
+							<p class="description">The Gabčíkovo Waterworks is a large barrage project on the Danube. The project aimed at preventing floods and producing electricity. The photos were taken during the autumn of 2019.</p>
+							<p><a href="danube.html" class="btn btn-primary">Show more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg bg-2">
+			<div class="container">
+				<blockquote class="quote-text">"If you were born without wings, do nothing to prevent them from growing."</blockquote>
+				<cite class="quote-author">Coco Chanel</cite>
+			</div>
+		</section>
+		<section class="section" id="contact">
+			<div class="container">
+				<div class="section-title cf">
+					<h1>Contact</h1>
+					<p>I am based in Bratislava, Slovakia. Feel free to contact me or just drop me a message for more professional info. I'll get back to you as soon as possible.</p>
+				</div>
+				<div class="contact cf">
+					<div class="about-picture">
+						<img src="img/about_contact.png" alt="thumbnail">
+					</div>
+					<div class="contact-info">
+						<h2>Find or Contact me</h2>
+						<p>You can find me on <a href="https://www.instagram.com/sine__alis/">Instagram</a></p>
+						<p>And also on <a href="https://www.linkedin.com/in/judit-csiba-8711421b7/">Linkedin</a></p>
+						<p>This is my <a href="https://github.com/sinealis">GitHub</a></p>
+						<p>Feel free to contact me.</p>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d42592.22534487491!2d17.0765173!3d48.1485337!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssk!2ssk!4v1599405672514!5m2!1ssk!2ssk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</section>
+		<footer class="section footer">
+			<div class="container">
+				<div class="foot cf">
+					<div class="footer-copyright">
+						&copy;&nbsp;2020 | Designed&nbsp;by&nbsp;@sine_alis
+					</div>
+					<div class="footer-socicons">
+						<a href="https://www.instagram.com/sine__alis/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/judit-csiba-8711421b7/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="https://github.com/sinealis"><i class="fa fa-github" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src='js/selectordie.min.js'></script>
+
+		<script>
+			$(".menu-dropdown select").selectOrDie();
+		</script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
