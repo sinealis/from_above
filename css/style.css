@@ -224,7 +224,10 @@ ul {
 	transform-origin: 100% 0;
 }
 .section-title {
-	margin-bottom: 6.25em; /* 100/16 */
+	margin-bottom: 4.375em; /* 70/16 */
+}
+#blog .section-title {
+	padding: 0 2em;
 }
 .section-title h1 {
 	float: left;
@@ -307,6 +310,9 @@ ul {
 }
 
 /*-------------Post-----------------*/
+#blog .container {
+	padding: 2.5em 1em 4em 1em;
+}
 .posts {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -338,7 +344,6 @@ ul {
 	-o-align-content: space-between;
 	align-content: space-between;
 }
-
 .post {
 	align-self: flex-start;
 	width: 35vw;
