@@ -56,7 +56,6 @@ ul {
 	list-style: none;
 }
 .header {
-	width: 100vw;
 	height: 100vh;
 	background: url("../img/greenwater.jpg") center center no-repeat fixed;
 	-webkit-background-size: cover;
