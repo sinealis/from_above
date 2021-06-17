@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="sine_alis">
-		<meta name="description" content="A portfolio page about aerial photos, taken with DJI Mavic Air from Central Europe. ">
+		<meta name="description" content="Portfolio website about aerial photos, taken with DJI Mavic Air from Central Europe. ">
 		<title>Photos from above</title>
 		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -22,6 +22,10 @@
 
 	</head>
 	<body>
+		<div class="preload">
+			<span class="loader loader-three"></span>
+		</div>
+		
 		<header class="header" id="home">
 			<div class="container">
 				<a href="index.html" class="header-logo">
@@ -209,6 +213,11 @@
 		<script src='js/selectordie.min.js'></script>
 
 		<script>
+			window.addEventListener("load", () => {
+				const preload = document.querySelector(".preload");
+				preload.parentElement.removeChild(preload);
+			});
+			
 			$(".menu-dropdown select").selectOrDie();
 		</script>
 
