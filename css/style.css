@@ -123,7 +123,7 @@ ul {
 	-o-background-size: cover;
 	background-size: cover;
 	color: #333;
-	transition: opacity 2s ease-in;
+	transition: opacity 3s ease-in;
 }
 .container {
 	padding: 2.5em 4em 4em 4em; /* 40/16 */
